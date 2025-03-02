@@ -15,6 +15,9 @@ function adjustCallInfoFontSize() {
 
         if (item.id === "call-info-header")
             item.style.fontSize = `${fontSize * 0.8}px`;
+
+        if (item.id === "call-info-number")
+            document.querySelector("#second-number").style.fontSize = `${fontSize * 0.7}px`;
     });
 }
 

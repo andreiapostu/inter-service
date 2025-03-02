@@ -47,6 +47,9 @@
     color: hsl(0.95, 80%, 50%);
 
     font-size: 106px;
+
+    display: flex;
+    flex-direction: column;
 }
 #call-info-number:hover {
     transition: .3s;

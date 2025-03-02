@@ -36,7 +36,8 @@ require_once 'config/setup.php';
                     CHIAMA SUBITO AL
                 </div>
                 <div class="call-info-item" id="call-info-number">
-                    <a href="tel:<?= PHONE_NUMBER ?>" class="no-underline"><?= $formattedPhoneNumber ?></a>
+                    <a id="first-number" href="tel:<?= PHONE_NUMBER ?>" class="no-underline" style="height: 1em;"><?= $formattedPhoneNumber ?></a>
+                    <a id="second-number" href="tel:<?= PHONE_NUMBER2 ?>" class="no-underline" style="height: 1.35em;"><?= $formattedPhoneNumber2 ?></a>
                 </div>
             </div>
 
@@ -277,7 +278,7 @@ require_once 'config/setup.php';
     <!-- Footer -->
     <?php include 'includes/footer.php'; ?>
 
-    <script src="js/call-info.js"></script>
-    <script src="js/cookie-consent.js"></script>
+    <script src="/js/call-info.js"></script>
+    <script src="/js/cookie-consent.js"></script>
 </body>
 </html>
