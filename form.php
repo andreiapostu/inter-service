@@ -79,29 +79,37 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             background-color: #0056b3;
         }
         html, body {
-    height: 100%;
-    margin: 0;
-}
+            height: 100%;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+        }
 
-body {
-    display: flex;
-    flex-direction: column;
-}
+        body {
+            display: flex;
+            flex-direction: column;
+        }
 
-.container {
-    flex-grow: 1;
-    align-content: center;
-}
+        .container {
+            flex-grow: 1;
+            align-content: center;
+        }
 
-footer {
-    position: sticky;
-    bottom: 0;
-    width: 100%;
-    background-color: #f1f1f1;
-    text-align: center;
-    padding: 20px;
-    box-shadow: 0px -2px 5px rgba(0, 0, 0, 0.1);
-}
+        footer {
+            position: sticky;
+            bottom: 0;
+            width: 100%;
+            background-color: #f1f1f1;
+            text-align: center;
+            padding: 20px;
+            box-shadow: 0px -2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        @media (max-width: 768px) {
+            footer {
+                position: relative !important;
+            }
+        }
 
     </style>
 </head>
