@@ -1,18 +1,18 @@
 <header class="bg-blue-600 text-white" style="position: sticky; top: 0; z-index: 10;">
     <div class="max-w-6xl mx-auto flex justify-between items-center px-4 py-3">
         <!-- Logo -->
-        <a href="index.php">
+        <a href="/">
             <img src="/assets/logo.png" alt="Tecnoservice" class="h-14 w-auto">
         </a>
 
         <!-- Navbar -->
         <nav class="hidden md:flex space-x-4">
             <ul class="flex space-x-4">
-                <li><a href="/index.php" class="hover:underline font-barlow font-bold uppercase">Home</a></li>
-                <li><a href="/index.php#chi-siamo" class="hover:underline font-barlow font-bold uppercase">Chi siamo</a></li>
-                <li><a href="/index.php#contact-form" class="hover:underline font-barlow font-bold uppercase">Richiedi Intervento</a></li>
-                <li><a href="/index.php#brands" class="hover:underline font-barlow font-bold uppercase">Marchi Trattati</a></li>
-                <li><a href="/index.php#cosa-ripariamo" class="hover:underline font-barlow font-bold uppercase">Cosa ripariamo</a></li>
+                <li><a href="/" class="hover:underline font-barlow font-bold uppercase">Home</a></li>
+                <li><a href="/#chi-siamo" class="hover:underline font-barlow font-bold uppercase">Chi siamo</a></li>
+                <li><a href="/#contact-form" class="hover:underline font-barlow font-bold uppercase">Richiedi Intervento</a></li>
+                <li><a href="/#brands" class="hover:underline font-barlow font-bold uppercase">Marchi Trattati</a></li>
+                <li><a href="/#cosa-ripariamo" class="hover:underline font-barlow font-bold uppercase">Cosa ripariamo</a></li>
             </ul>
         </nav>
 
@@ -36,11 +36,11 @@
             </button>
         </div>
         <ul class="mt-6 space-y-6 px-4">
-            <li><a href="/index.php" class="block text-lg font-barlow font-bold hover:underline uppercase border-b border-white/30 pb-2">Home</a></li>
-            <li><a href="/index.php#chi-siamo" class="block text-lg font-barlow font-bold hover:underline uppercase border-b border-white/30 pb-2">Chi siamo</a></li>
-            <li><a href="/index.php#contact-form" class="block text-lg font-barlow font-bold hover:underline uppercase border-b border-white/30 pb-2">Richiedi Intervento</a></li>
-            <li><a href="/index.php#brands" class="block text-lg font-barlow font-bold hover:underline uppercase border-b border-white/30 pb-2">Marchi Trattati</a></li>
-            <li><a href="/index.php#cosa-ripariamo" class="block text-lg font-barlow font-bold hover:underline uppercase border-b border-white/30 pb-2">Cosa ripariamo</a></li>
+            <li><a href="/" class="block text-lg font-barlow font-bold hover:underline uppercase border-b border-white/30 pb-2">Home</a></li>
+            <li><a href="/#chi-siamo" class="block text-lg font-barlow font-bold hover:underline uppercase border-b border-white/30 pb-2">Chi siamo</a></li>
+            <li><a href="/#contact-form" class="block text-lg font-barlow font-bold hover:underline uppercase border-b border-white/30 pb-2">Richiedi Intervento</a></li>
+            <li><a href="/#brands" class="block text-lg font-barlow font-bold hover:underline uppercase border-b border-white/30 pb-2">Marchi Trattati</a></li>
+            <li><a href="/#cosa-ripariamo" class="block text-lg font-barlow font-bold hover:underline uppercase border-b border-white/30 pb-2">Cosa ripariamo</a></li>
         </ul>
     </div>
 </header>

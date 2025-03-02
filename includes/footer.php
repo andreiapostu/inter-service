@@ -24,7 +24,7 @@ require_once 'config/setup.php';
         <div class="w-full md:w-auto flex flex-col items-center md:items-end">
             <p class="text-sm">📞 <a href="tel:<?= PHONE_NUMBER ?>" class="hover:underline"><?= $formattedPhoneNumber ?></a></p>
             <p class="text-sm">📞 <a href="tel:<?= PHONE_NUMBER2 ?>" class="hover:underline"><?= $formattedPhoneNumber2 ?></a></p>
-            <a href="/index.php#contact-form" class="text-blue-400 hover:underline mt-2">Richiedi un intervento</a>
+            <a href="/#contact-form" class="text-blue-400 hover:underline mt-2">Richiedi un intervento</a>
         </div>
 
         <!-- Orari di apertura -->
