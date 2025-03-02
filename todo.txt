@@ -1,0 +1,30 @@
+! perché scegliere tecnoservice?
+! ragioni per cui sceglierci
+
+! brands
+
+! form richieste (pulsante da hero a qui)
+
+! sezione furgoncino
+
+! cookies & privacy policy
+
+! form richieste su telegram
+
+! ultimare navabar
+
+! ultimare footer (vedi strepara e metti altre info)
+! "assistenza specializzata non ufficiale"
+
+! mobile view
+
+IMMAGINI:
+    ! icone del perché sceglierci
+    ! immagini elenco elettrodomestici
+    background del CHIAMA SUBITO AL ...
+
+mettere l'elenco dei marchi giusto
+mettere la email giusta nella informativa sulla privacy
+il secondo numero di telefono
+
+seo

@@ -1,0 +1,185 @@
+/* Responsive Styling */
+#hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+
+    background-image: url(../assets/bg.webp);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: rgba(0, 0, 0, 0.4);
+    background-blend-mode: darken;
+}
+
+#hero-wrapper {
+    width: 100%;
+}
+
+.call-info {
+    width: 40%;
+}
+
+.call-info-item {
+    font-family: "Barlow Condensed", sans-serif;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+#call-info-header {
+    color: black;
+    border: solid black 0.05em;
+    background: rgba(255, 255, 255, .75);
+    text-align: center;
+    font-family: 'Abel';
+
+    font-size: 22px;
+}
+
+#call-info-action {
+    margin-bottom: -0.65em;
+
+    font-size: 68px;
+}
+
+#call-info-number {
+    color: hsl(0.95, 80%, 50%);
+
+    font-size: 106px;
+}
+#call-info-number:hover {
+    transition: .3s;
+    color: hsl(0.95, 80%, 55%);
+}
+
+.hero-btn {
+    border-radius: 0;
+    text-transform: uppercase;
+    width: 20rem;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: .5em;
+}
+
+.hero-btn:hover {
+    cursor: pointer;
+    color: white;
+}
+
+/* About Section */
+#chi-siamo {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+#chi-siamo h2 {
+    color: #1D4ED8;
+    font-weight: 700;
+}
+
+#chi-siamo p {
+    color: #4B5563;
+    font-size: 1.125rem;
+}
+
+#chi-siamo .bg-blue-100 {
+    background-color: #DBEAFE;
+}
+
+#chi-siamo .bg-blue-600 {
+    background-color: #2563EB;
+}
+
+#chi-siamo .bg-blue-700 {
+    background-color: #1D4ED8;
+}
+
+/* Furgoncino */
+#furgoncino-zone {
+    background-color: #2563EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#furgoncino-zone img {
+    width: 20vw;
+    margin-right: 2vw;
+}
+
+#furgoncino-zone h3 {
+    font-size: 2.5vw;
+    color: #e0fdfe;
+}
+#furgoncino-zone span {
+    color: #1F2937;
+}
+
+
+@media (max-width: 768px) {
+    #hero {
+        text-align: center;
+        height: 80vh;
+    }
+
+    #hero-wrapper {
+        align-items: center;
+        text-align: center;
+    }
+
+    .call-info {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .call-info-item {
+        text-align: center;
+    }
+
+    ul.space-y-4 {
+        text-align: center;
+    }
+
+    .hero-btn {
+        margin: 0 auto;
+    }
+
+
+    #call-info-header {
+        font-size: 16px;
+    }
+
+    #call-info-action {
+        font-size: 50px;
+    }
+
+    #call-info-number {
+        font-size: 78px;
+    }
+
+    /* Furgoncino Zona */
+    #furgoncino-zone {
+        flex-direction: column;
+        text-align: center;
+        padding: 20px;
+    }
+
+    #furgoncino-zone img {
+        width: 50vw;
+        margin: 0 auto 15px;
+    }
+
+    #furgoncino-zone h3 {
+        font-size: 6vw;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+    #furgoncino-zone span {
+        display: inline;
+    }
+}
