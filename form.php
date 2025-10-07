@@ -191,9 +191,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             <div class="w-full md:w-auto mb-6 md:mb-0">
                 <p class="text-sm">&copy; 2014 Tecnoservice</p>
                 <div class="mt-2 space-x-4">
-                    <a href="/privacy.php" class="text-blue-400 hover:underline">Informativa sulla privacy</a>
+                    <a href="/privacy.html" class="text-blue-400 hover:underline">Informativa sulla privacy</a>
                     <span class="hidden md:inline text-gray-500">|</span>
-                    <a href="/cookie.php" class="text-blue-400 hover:underline">Cookie Policy</a>
+                    <a href="/cookie.html" class="text-blue-400 hover:underline">Cookie Policy</a>
                 </div>
             </div>
 
