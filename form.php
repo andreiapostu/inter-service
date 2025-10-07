@@ -171,7 +171,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         <p style="margin-top: 20px;">Se hai bisogno di ulteriori informazioni, non esitare a contattarci.</p>
 
         <div class="mt-12" style="margin-bottom: 3vh">
-            <a href="tel:<?= PHONE_NUMBER ?>" class="bg-blue-600 text-white font-semibold py-3 px-6 rounded-lg shadow-md hover:bg-blue-700 transition-all">
+            <a href="tel:0115218104" class="bg-blue-600 text-white font-semibold py-3 px-6 rounded-lg shadow-md hover:bg-blue-700 transition-all">
                 CHIAMA SUBITO
             </a>
         </div>
@@ -199,8 +199,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
             <!-- Contatti -->
             <div class="w-full md:w-auto flex flex-col items-center md:items-end">
-                <p class="text-sm">📞 <a href="tel:<?= PHONE_NUMBER ?>" class="hover:underline"><?= $formattedPhoneNumber ?></a></p>
-                <p class="text-sm">📞 <a href="tel:<?= PHONE_NUMBER2 ?>" class="hover:underline"><?= $formattedPhoneNumber2 ?></a></p>
+                <p class="text-sm">📞 <a href="tel:0115218104" class="hover:underline">011 521 8104</a></p>
+                <p class="text-sm">📞 <a href="tel:3290860479" class="hover:underline">329 086 0479</a></p>
                 <a href="/#contact-form" class="text-blue-400 hover:underline mt-2">Richiedi un intervento</a>
             </div>
 
@@ -213,7 +213,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
             <!-- Partita IVA -->
             <div class="w-full text-center md:text-right mt-6 md:mt-0">
-                <p class="text-sm text-gray-400">P. IVA: <span class="text-white font-semibold" style="user-select: none; pointer-events: none;"><?= PIVA ?></span></p>
+                <p class="text-sm text-gray-400">P. IVA: <span class="text-white font-semibold" style="user-select: none; pointer-events: none;">11598960018</span></p>
             </div>
 
         </div>

@@ -86,8 +86,8 @@
 
             <!-- Contatti -->
             <div class="w-full md:w-auto flex flex-col items-center md:items-end">
-                <p class="text-sm">📞 <a href="tel:<?= PHONE_NUMBER ?>" class="hover:underline"><?= $formattedPhoneNumber ?></a></p>
-                <p class="text-sm">📞 <a href="tel:<?= PHONE_NUMBER2 ?>" class="hover:underline"><?= $formattedPhoneNumber2 ?></a></p>
+                <p class="text-sm">📞 <a href="tel:0115218104" class="hover:underline">011 521 8104</a></p>
+                <p class="text-sm">📞 <a href="tel:3290860479" class="hover:underline">329 086 0479</a></p>
                 <a href="/#contact-form" class="text-blue-400 hover:underline mt-2">Richiedi un intervento</a>
             </div>
 
@@ -100,7 +100,7 @@
 
             <!-- Partita IVA -->
             <div class="w-full text-center md:text-right mt-6 md:mt-0">
-                <p class="text-sm text-gray-400">P. IVA: <span class="text-white font-semibold" style="user-select: none; pointer-events: none;"><?= PIVA ?></span></p>
+                <p class="text-sm text-gray-400">P. IVA: <span class="text-white font-semibold" style="user-select: none; pointer-events: none;">11598960018</span></p>
             </div>
 
         </div>

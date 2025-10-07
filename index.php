@@ -84,8 +84,8 @@ require_once 'config/setup.php';
                     CHIAMA SUBITO AL
                 </div>
                 <div class="call-info-item" id="call-info-number">
-                    <a id="first-number" href="tel:<?= PHONE_NUMBER ?>" class="no-underline" style="height: 1em;"><?= $formattedPhoneNumber ?></a>
-                    <a id="second-number" href="tel:<?= PHONE_NUMBER2 ?>" class="no-underline" style="height: 1.35em;"><?= $formattedPhoneNumber2 ?></a>
+                    <a id="first-number" href="tel:0115218104" class="no-underline" style="height: 1em;">011 521 8104</a>
+                    <a id="second-number" href="tel:3290860479" class="no-underline" style="height: 1.35em;">329 086 0479</a>
                 </div>
             </div>
 
@@ -126,7 +126,7 @@ require_once 'config/setup.php';
             <!-- Buttons -->
             <div class="flex flex-col md:flex-row items-center md:items-start space-y-4 md:space-y-0 md:space-x-6 mt-8">
                 <!-- First Button -->
-                <a href="tel:<?= PHONE_NUMBER ?>" class="hero-btn bg-blue-600 text-white font-bold py-3 px-6 border border-white transition-all duration-200 hover:bg-blue-800 hover:border-transparent">
+                <a href="tel:0115218104" class="hero-btn bg-blue-600 text-white font-bold py-3 px-6 border border-white transition-all duration-200 hover:bg-blue-800 hover:border-transparent">
                     <div>
                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone-outbound-fill" viewBox="0 0 16 16">
                             <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.68.68 0 0 0 .178.643l2.457 2.457a.68.68 0 0 0 .644.178l2.189-.547a1.75 1.75 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.6 18.6 0 0 1-7.01-4.42 18.6 18.6 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877zM11 .5a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 .5.5v4a.5.5 0 0 1-1 0V1.707l-4.146 4.147a.5.5 0 0 1-.708-.708L14.293 1H11.5a.5.5 0 0 1-.5-.5"/>
@@ -188,7 +188,7 @@ require_once 'config/setup.php';
                 </div>
             </div>
             <div class="flex flex-col md:flex-row items-center justify-center gap-4 md:gap-8 mt-12">
-                <a href="tel:<?= PHONE_NUMBER ?>" class="w-full md:w-auto bg-blue-600 text-white font-semibold py-3 px-6 rounded-lg shadow-md hover:bg-blue-700 transition-all text-center">
+                <a href="tel:0115218104" class="w-full md:w-auto bg-blue-600 text-white font-semibold py-3 px-6 rounded-lg shadow-md hover:bg-blue-700 transition-all text-center">
                     CHIAMA SUBITO
                 </a>
                 <a href="#contact-form" class="w-full md:w-auto bg-white text-blue-600 border-2 border-blue-600 font-semibold py-3 px-8 rounded-lg hover:bg-blue-700 hover:text-white transition-all text-center">
@@ -207,7 +207,7 @@ require_once 'config/setup.php';
     <section id="contact-form" class="py-16 px-8 bg-gray-100">
         <div class="max-w-4xl mx-auto bg-gray-100 p-8 rounded-lg">
             <h2 class="text-5xl font-bold text-center text-blue-600 mb-6">RICHIEDI UN INTERVENTO</h2>
-            <p class="text-lg text-gray-700 text-center mb-8">Compila il modulo qui sotto e ti ricontatteremo il prima possibile per aiutarti con il tuo problema.<br>In alternativa, puoi chiamarci al <a href="tel:<?= PHONE_NUMBER ?>" class="text-blue-600 hover:underline"><?= $formattedPhoneNumber ?></a>.</p>
+            <p class="text-lg text-gray-700 text-center mb-8">Compila il modulo qui sotto e ti ricontatteremo il prima possibile per aiutarti con il tuo problema.<br>In alternativa, puoi chiamarci al <a href="tel:0115218104" class="text-blue-600 hover:underline">011 521 8104</a>.</p>
 
             <form action="form.php" method="POST" class="space-y-6">
                 <!-- Località -->
@@ -313,7 +313,7 @@ require_once 'config/setup.php';
             </div>
 
             <div class="flex flex-col md:flex-row items-center justify-center gap-4 md:gap-8 mt-12">
-                <a href="tel:<?= PHONE_NUMBER ?>" class="w-full md:w-auto bg-blue-600 text-white font-semibold py-3 px-6 rounded-lg shadow-md hover:bg-blue-700 transition-all text-center">
+                <a href="tel:0115218104" class="w-full md:w-auto bg-blue-600 text-white font-semibold py-3 px-6 rounded-lg shadow-md hover:bg-blue-700 transition-all text-center">
                     CHIAMA SUBITO
                 </a>
                 <a href="#contact-form" class="w-full md:w-auto bg-white text-blue-600 border-2 border-blue-600 font-semibold py-3 px-8 rounded-lg hover:bg-blue-700 hover:text-white transition-all text-center">
@@ -345,8 +345,8 @@ require_once 'config/setup.php';
 
             <!-- Contatti -->
             <div class="w-full md:w-auto flex flex-col items-center md:items-end">
-                <p class="text-sm">📞 <a href="tel:<?= PHONE_NUMBER ?>" class="hover:underline"><?= $formattedPhoneNumber ?></a></p>
-                <p class="text-sm">📞 <a href="tel:<?= PHONE_NUMBER2 ?>" class="hover:underline"><?= $formattedPhoneNumber2 ?></a></p>
+                <p class="text-sm">📞 <a href="tel:0115218104" class="hover:underline">011 521 8104</a></p>
+                <p class="text-sm">📞 <a href="tel:3290860479" class="hover:underline">329 086 0479</a></p>
                 <a href="/#contact-form" class="text-blue-400 hover:underline mt-2">Richiedi un intervento</a>
             </div>
 
@@ -359,7 +359,7 @@ require_once 'config/setup.php';
 
             <!-- Partita IVA -->
             <div class="w-full text-center md:text-right mt-6 md:mt-0">
-                <p class="text-sm text-gray-400">P. IVA: <span class="text-white font-semibold" style="user-select: none; pointer-events: none;"><?= PIVA ?></span></p>
+                <p class="text-sm text-gray-400">P. IVA: <span class="text-white font-semibold" style="user-select: none; pointer-events: none;">11598960018</span></p>
             </div>
 
         </div>

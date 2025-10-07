@@ -92,7 +92,7 @@ require_once 'config/setup.php';
         <p>La tua privacy è importante per noi. Questa informativa descrive come raccogliamo, utilizziamo e proteggiamo i tuoi dati personali quando visiti il nostro sito web e utilizzi i nostri servizi.</p>
 
         <h2>2. Titolare del trattamento</h2>
-        <p>Il titolare del trattamento dei dati è <strong>Tecnoservice</strong>, identificato con Partita IVA <strong><?= PIVA ?></strong>. Per qualsiasi domanda sulla privacy, puoi contattarci a <a href="mailto:<?= EMAIL ?>"><?= EMAIL ?></a>.</p>
+        <p>Il titolare del trattamento dei dati è <strong>Tecnoservice</strong>, identificato con Partita IVA <strong>11598960018</strong>. Per qualsiasi domanda sulla privacy, puoi contattarci a <a href="mailto:tecnoservice2022@hotmail.com">tecnoservice2022@hotmail.com</a>.</p>
 
         <h2>3. Tipologia di dati raccolti</h2>
         <p>Il nostro sito web non raccoglie dati personali degli utenti, salvo quelli forniti volontariamente tramite il modulo di richiesta assistenza.</p>
@@ -125,7 +125,7 @@ require_once 'config/setup.php';
             <li>Limitare o opporsi al trattamento.</li>
             <li>Richiedere la portabilità dei dati.</li>
         </ul>
-        <p>Per esercitare questi diritti, contattaci a <a href="mailto:<?= EMAIL ?>"><?= EMAIL ?></a>.</p>
+        <p>Per esercitare questi diritti, contattaci a <a href="mailto:tecnoservice2022@hotmail.com">tecnoservice2022@hotmail.com</a>.</p>
 
         <h2>9. Sicurezza dei dati</h2>
         <p>Adottiamo misure tecniche e organizzative adeguate per proteggere i tuoi dati da accessi non autorizzati o trattamenti illeciti.</p>
@@ -133,7 +133,7 @@ require_once 'config/setup.php';
         <h2>10. Modifiche alla privacy policy</h2>
         <p>Questa informativa può essere aggiornata in futuro. Ti invitiamo a consultarla periodicamente.</p>
 
-        <p>Se hai domande, contattaci a <a href="mailto:<?= EMAIL ?>"><?= EMAIL ?></a>.</p>
+        <p>Se hai domande, contattaci a <a href="mailto:tecnoservice2022@hotmail.com">tecnoservice2022@hotmail.com</a>.</p>
     </section>
 
     <!-- Footer -->
@@ -158,8 +158,8 @@ require_once 'config/setup.php';
 
             <!-- Contatti -->
             <div class="w-full md:w-auto flex flex-col items-center md:items-end">
-                <p class="text-sm">📞 <a href="tel:<?= PHONE_NUMBER ?>" class="hover:underline"><?= $formattedPhoneNumber ?></a></p>
-                <p class="text-sm">📞 <a href="tel:<?= PHONE_NUMBER2 ?>" class="hover:underline"><?= $formattedPhoneNumber2 ?></a></p>
+                <p class="text-sm">📞 <a href="tel:0115218104" class="hover:underline">011 521 8104</a></p>
+                <p class="text-sm">📞 <a href="tel:3290860479" class="hover:underline">329 086 0479</a></p>
                 <a href="/#contact-form" class="text-blue-400 hover:underline mt-2">Richiedi un intervento</a>
             </div>
 
@@ -172,7 +172,7 @@ require_once 'config/setup.php';
 
             <!-- Partita IVA -->
             <div class="w-full text-center md:text-right mt-6 md:mt-0">
-                <p class="text-sm text-gray-400">P. IVA: <span class="text-white font-semibold" style="user-select: none; pointer-events: none;"><?= PIVA ?></span></p>
+                <p class="text-sm text-gray-400">P. IVA: <span class="text-white font-semibold" style="user-select: none; pointer-events: none;">11598960018</span></p>
             </div>
 
         </div>
