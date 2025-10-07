@@ -1,6 +1,3 @@
-<?php
-require_once 'config/setup.php';
-?>
 <!DOCTYPE html>
 <html lang="it">
 <head>
@@ -239,12 +236,7 @@ require_once 'config/setup.php';
     <section id="brands" class="py-12 bg-gray-200">
         <div class="max-w-6xl mx-auto px-6">
             <h2 class="text-4xl font-bold text-center text-gray-800 mb-8">MARCHI ELETTRODOMESTICI TRATTATI</h2>
-            <div class="flex flex-wrap justify-center gap-4">
-                <?php foreach ($brands as $brand): ?>
-                    <span class="px-4 py-2 bg-white shadow rounded-lg text-gray-700 font-medium text-lg select-none hover:bg-blue-400 duration-200">
-                        <?= htmlspecialchars($brand) ?>
-                    </span>
-                <?php endforeach; ?>
+            <div id="brands-wrapper" class="flex flex-wrap justify-center gap-4">
             </div>
         </div>
     </section>
@@ -366,6 +358,7 @@ require_once 'config/setup.php';
     </footer>
 
     <script src="/js/menu.js"></script>
+    <script src="/js/brands.js"></script>
 
     <script src="/js/call-info.js"></script>
     <script src="/js/cookie-consent.js"></script>
