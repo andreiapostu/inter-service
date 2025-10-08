@@ -1,37 +1,3 @@
-<?php
-require_once 'config/setup.php';
-
-if ($_SERVER['REQUEST_METHOD'] === 'POST') {
-    $localita = htmlspecialchars($_POST['localita']);
-    $telefono = htmlspecialchars($_POST['telefono']);
-    $problema = htmlspecialchars($_POST['problema']);
-    
-    $messaggio = "📩<b><i>RICHIESTA IN ARRIVO</i></b>📩\n\n";
-    $messaggio .= "📍<b>Località:</b> $localita\n";
-    $messaggio .= "📞<b>Contatto:</b> $telefono\n\n";
-    $messaggio .= "📝<b>Descrizione Problema:</b> \n<i>$problema</i>";
-    
-    $apiUrl = "https://api.telegram.org/bot" . TELEGRAM_BOT_TOKEN . "/sendMessage";
-    
-    $postData = [
-        'chat_id' => TELEGRAM_CHAT_ID,
-        'parse_mode' => 'HTML',
-        'text' => $messaggio,
-    ];
-    
-    $ch = curl_init();
-    curl_setopt($ch, CURLOPT_URL, $apiUrl);
-    curl_setopt($ch, CURLOPT_POST, true);
-    curl_setopt($ch, CURLOPT_POSTFIELDS, json_encode($postData));
-    curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
-    curl_setopt($ch, CURLOPT_HTTPHEADER, ['Content-Type: application/json']);
-    
-    $response = curl_exec($ch);
-    curl_close($ch);
-}
-
-?>
-
 <!DOCTYPE html>
 <html lang="it">
 <head>
