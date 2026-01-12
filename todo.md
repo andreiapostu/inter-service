@@ -1,0 +1,10 @@
+- Scritte e descrizioni
+- Colori
+- Dati (telefono, email, partita iva, ecc...)
+- List elettrodomestici
+- Immagini
+- Telegram
+- Prefisso telefonico
+- Orari apertura
+- Anno copyright
+- Migliorie
