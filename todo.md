@@ -8,3 +8,4 @@
 - Orari apertura
 - Anno copyright
 - Migliorie
+- quitar este archivo

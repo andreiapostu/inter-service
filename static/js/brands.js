@@ -1,4 +1,4 @@
-const CLASSES = "px-4 py-2 bg-white shadow rounded-lg text-gray-700 font-medium text-lg select-none hover:bg-blue-400 duration-200";
+const CLASSES = "px-4 py-2 bg-white shadow rounded-lg text-gray-700 font-medium text-lg select-none hover:bg-red-400 duration-200";
 const BRANDS = [
     "AEG",
     "BEKO",

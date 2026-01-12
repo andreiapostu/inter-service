@@ -44,7 +44,7 @@
 }
 
 #call-info-number {
-    color: hsl(0.95, 80%, 50%);
+    color: hsl(222, 80%, 50%);
 
     font-size: 106px;
 
@@ -53,7 +53,7 @@
 }
 #call-info-number:hover {
     transition: .3s;
-    color: hsl(0.95, 80%, 55%);
+    color: hsl(222, 80%, 50%);
 }
 
 .hero-btn {
@@ -79,7 +79,7 @@
 }
 
 #chi-siamo h2 {
-    color: #1D4ED8;
+    color: #c93636;
     font-weight: 700;
 }
 
@@ -88,21 +88,21 @@
     font-size: 1.125rem;
 }
 
-#chi-siamo .bg-blue-100 {
-    background-color: #DBEAFE;
+#chi-siamo .bg-red-100 {
+    background-color: #fedbdb;
 }
 
-#chi-siamo .bg-blue-600 {
-    background-color: #2563EB;
+#chi-siamo .bg-red-600 {
+    background-color: #c93636;
 }
 
-#chi-siamo .bg-blue-700 {
-    background-color: #1D4ED8;
+#chi-siamo .bg-red-700 {
+    background-color: #c93636;
 }
 
 /* Furgoncino */
 #furgoncino-zone {
-    background-color: #2563EB;
+    background-color: #c93636;
     display: flex;
     justify-content: center;
     align-items: center;
