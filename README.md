@@ -8,5 +8,5 @@ pip install -r requirements.txt
 
 # Run
 ```bash
-uvicorn main:app --port 6001
+uvicorn main:app --port 6002
 ```
